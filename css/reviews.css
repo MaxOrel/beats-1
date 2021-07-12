@@ -1,6 +1,6 @@
 .reviews__display {
   background: #F8FAF9;
-  padding: 50px 45px 34px;
+  padding: 50px 40px 34px;
   position: relative; }
   .reviews__display:before {
     content: "";
@@ -28,10 +28,10 @@
 
 .reviews__content {
   flex: 1;
-  margin-left: 20px; }
+  margin-left: 38px; }
 
 .reviews__title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 22px;
   color: black; }

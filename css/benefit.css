@@ -12,7 +12,7 @@
 
 .benefit__icon {
   width: 60px;
-  height: 55px;
+  height: 60px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -21,6 +21,6 @@
 .benefit__title {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 0px; }
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=benefit.css.map */
