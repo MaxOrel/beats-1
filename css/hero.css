@@ -1,0 +1,38 @@
+.hero {
+  background: url(../img/ellipse.png) left 63% top 70% no-repeat;
+  background-color: #F5F5F5;
+  height: 50vh;
+  min-height: 650px;
+  color: #292929;
+  position: relative; }
+  .hero:before {
+    position: absolute;
+    bottom: -40px;
+    right: 2%;
+    content: url("../img/rectangle.png"); }
+
+.hero__title-section {
+  width: 46%; }
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 24px 0 60px; }
+
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase; }
+
+.hero__title--desc {
+  font-size: 21px;
+  margin-bottom: 50px;
+  padding-right: 10%;
+  font-family: "Alegreya Sans", Helvetica, sans-serif; }
+
+/*# sourceMappingURL=hero.css.map */
