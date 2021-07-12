@@ -98,7 +98,9 @@ img {
 
 .menu__list {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 10px; }
 
 .menu__item {
   margin-right: 29px; }
@@ -109,7 +111,8 @@ img {
   font-size: 24px;
   text-decoration: none;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-right: 30px; }
 
 .phone-number__icon-elem {
   width: 12px;
@@ -188,10 +191,10 @@ img {
   text-align: center; }
 
 .headline__title {
-  margin-bottom: 25px; }
+  margin-bottom: 15px; }
 
 .headline__subtitle {
-  padding: 0 26%; }
+  padding: 0 22%; }
 
 .benefits {
   display: flex; }
@@ -226,12 +229,16 @@ img {
   overflow: hidden; }
 
 .benefit__icon {
-  width: 75px;
-  height: 69px;
+  width: 60px;
+  height: 55px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.benefit__title {
+  font-size: 24px;
+  font-weight: bold; }
 
 .benefits-section {
   content: url(../img/redtriangle.png) no-repeat;
@@ -386,8 +393,8 @@ img {
 
 .fixed-menu {
   position: fixed;
-  top: 20%;
-  right: 3%;
+  top: 25%;
+  right: 27%;
   list-style: none;
   z-index: 100; }
 

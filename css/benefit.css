@@ -11,11 +11,15 @@
   overflow: hidden; }
 
 .benefit__icon {
-  width: 75px;
-  height: 69px;
+  width: 60px;
+  height: 55px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.benefit__title {
+  font-size: 24px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=benefit.css.map */
