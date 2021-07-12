@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$pink".
-        on line 43 of /Users/ekaterinasushkova/Desktop/Beats/css/order.scss
+        on line 44 of /Users/ekaterinasushkova/Desktop/Beats/css/order.scss
 
-38:         height: 180px;
-39:         resize: none;
-40:     }
-41: 
-42:     &:focus {
-43:         border: solid 4px $pink;
-44:     }
-45: } 
-46: .form__controls {
-47:     display: flex;
-48:     flex-wrap: wrap;
+39:         height: 150px;
+40:         resize: none;
+41:     }
+42: 
+43:     &:focus {
+44:         border: solid 4px $pink;
+45:     }
+46: } 
+47: .form__controls {
+48:     display: flex;
+49:     flex-wrap: wrap;
 
 Backtrace:
-/Users/ekaterinasushkova/Desktop/Beats/css/order.scss:43
+/Users/ekaterinasushkova/Desktop/Beats/css/order.scss:44
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$pink\".\A         on line 43 of /Users/ekaterinasushkova/Desktop/Beats/css/order.scss\A \A 38:         height: 180px;\A 39:         resize: none;\A 40:     }\A 41: \A 42:     &:focus {\A 43:         border: solid 4px $pink;\A 44:     }\A 45: } \A 46: .form__controls {\A 47:     display: flex;\A 48:     flex-wrap: wrap;"; }
+  content: "Error: Undefined variable: \"$pink\".\A         on line 44 of /Users/ekaterinasushkova/Desktop/Beats/css/order.scss\A \A 39:         height: 150px;\A 40:         resize: none;\A 41:     }\A 42: \A 43:     &:focus {\A 44:         border: solid 4px $pink;\A 45:     }\A 46: } \A 47: .form__controls {\A 48:     display: flex;\A 49:     flex-wrap: wrap;"; }
